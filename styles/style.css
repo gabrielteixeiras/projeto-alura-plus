@@ -205,3 +205,74 @@ body {
     font-size: 1.1rem;
     text-decoration: underline;
 }
+
+/* RESPONSIVIDADE */
+@media screen and (max-width: 768px) {
+    /* CONFIGURAÇÕES PRIMEIRA SECTION */
+    .container {
+        display: block;
+        background-image: none;
+    }
+
+    .container__caixa {
+        margin: 2em 3em;
+    }
+
+    .container__image {
+        width: 50vw;
+    }
+
+    /* CONFIGURAÇÕES SEGUNDA SECTION */
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__image {
+        width: 50vw;
+    }
+    
+    .descricao__titulo {
+        font-size: 2rem;
+    }
+    
+    .descricao__paragrafo {
+        margin: 2em;
+    }
+
+    /* CONFIGURAÇÕES TERCEIRA SECTION */
+    .descricao__links {    
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    /* CONFIGURAÇÕES QUINTA SECTION */
+     .dispositivos__titulo {
+        font-size: 2rem;
+    }
+    
+    .dispositivos__lista {
+        display: block;
+    }
+    
+    /* CONFIGURAÇÕES FOOTER */
+    .container-footer__logo {
+        margin: 2em 0 0.1em 0;
+    }
+
+    .container-footer__lista {
+        margin: 1.8em 0.1em;
+    }
+
+    .container-footer__links {
+        margin: 2em 1em;
+    }
+
+    .container-footer__texto {
+        margin: 1.5em 0.1em;
+    }
+
+    .container-footer__margin__final {
+        margin-bottom: 2em;
+    }
+}
