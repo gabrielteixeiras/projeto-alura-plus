@@ -164,8 +164,10 @@ body {
 }
 
 .container-footer__lista {
+    display: flex;
+    justify-content: center;
     margin: 1.5em 9.8em;
-
+    list-style-type: none;
 }
 
 .container-footer__links {
@@ -256,20 +258,21 @@ body {
     }
     
     /* CONFIGURAÇÕES FOOTER */
+    .container-footer__lista {
+        display: block;
+        text-align: center;
+    }
+
     .container-footer__logo {
         margin: 2em 0 0.1em 0;
     }
 
-    .container-footer__lista {
-        margin: 1.8em 0.1em;
-    }
-
     .container-footer__links {
-        margin: 2em 1em;
+        margin: 3em 1em;
     }
 
     .container-footer__texto {
-        margin: 1.5em 0.1em;
+        margin: 1.5em 0.5em;
     }
 
     .container-footer__margin__final {
