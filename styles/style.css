@@ -22,6 +22,7 @@ body {
     font-family: var(--font-principal);
 }
 
+/* CONFIGURAÇÕES PRIMEIRA SECTION */
 .principal {
     background: url(../images/Background.png) no-repeat;
     background-size: contain;
@@ -77,4 +78,113 @@ body {
     font-size: 0.75rem;
     color: var(--color-secundario);
     margin-top: 0.62em;
+}
+
+/* CONFIGURAÇÕES SEGUNDA SECTION */
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secundario__image {
+    width: 80%;
+}
+
+.descricao__titulo {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+}
+
+.descricao__paragrafo {
+    color: var(--color-secundario);
+    margin-right: 4.37em;
+}
+
+/* CONFIGURAÇÕES TERCEIRA SECTION */
+.descriacao__links {
+    display: block;
+    background-color: var(--color-button);
+    color: var(--color-principal);
+    padding: 1em;
+    margin-top: 1em;
+    width: 11em;
+
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5em;
+    font-size: 1rem;
+}
+
+/* CONFIGURAÇÕES QUINTA SECTION */
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    font-size: 3rem;
+    color: var(--color-principal);
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.dispositivos__nomes {
+    font-size: 2rem;
+    color: var(--color-principal);
+}
+
+/* CONFIGURAÇÕES FOOTER */
+.container-footer {
+    text-align: center;
+}
+
+.container-footer__logo {
+    margin: 2em 0;
+}
+
+.container-footer__lista {
+    margin: 1.5em 9.8em;
+
+}
+
+.container-footer__links {
+    margin-left: 1em;
+
+    color: var(--color-principal);
+    text-decoration: none;
+}
+
+.container-footer__links:hover {
+    text-decoration: underline;
+}
+
+.container-footer__texto {
+    color: var(--color-secundario);
+    margin: 1.5em 9.8em;
+    font-size: 0.87rem;
+}
+
+.container-footer__margin__final {
+    margin-bottom: 6em;
+}
+
+.container-footer__desenvolvedor {
+    background-color: var(--color-button);
+    padding: 1em;
+}
+
+.desenvolvedor__link {
+    text-decoration: none;
+    color: var(--color-principal);
+    font-weight: 700;
+}
+
+.desenvolvedor__link:hover {
+    text-decoration: underline;
 }
